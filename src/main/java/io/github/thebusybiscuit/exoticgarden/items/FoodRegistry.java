@@ -75,7 +75,7 @@ public final class FoodRegistry {
         .register(plugin);
 
         new CustomFood(food, new SlimefunItemStack("PANCAKE", "c4b08238b27bf6c0c62a7502aaded8d9d6fd60345bc5f7993b2661b7180e220b", "&rPancake", "", "&7&oRestores &b&o" + "4.0" + " &7&oHunger"),
-        new ItemStack[] {new ItemStack(Material.WHEAT_FLOUR), new ItemStack(Material.SUGAR), SlimefunItems.BUTTER, new ItemStack(Material.MILK_BUCKET), new ItemStack(Material.EGG), null, null, null, null},
+        new ItemStack[] {new ItemStack(Material.WHEAT), new ItemStack(Material.SUGAR), SlimefunItems.BUTTER, new ItemStack(Material.MILK_BUCKET), new ItemStack(Material.EGG), null, null, null, null},
         8)
         .register(plugin);
 
