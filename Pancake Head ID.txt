@@ -1,0 +1,8 @@
+c4b08238b27bf6c0c62a7502aaded8d9d6fd60345bc5f7993b2661b7180e220b
+
+
+
+
+        new ItemStack[] {new ItemStack(Material.PUMPKIN), new ItemStack(Material.SUGAR), SlimefunItems.WHEAT_FLOUR, null, null, null, null, null, null},
+        8)
+        .register(plugin);
