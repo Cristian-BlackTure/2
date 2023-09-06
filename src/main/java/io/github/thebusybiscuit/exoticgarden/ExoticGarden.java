@@ -98,7 +98,7 @@ public class ExoticGarden extends JavaPlugin implements SlimefunAddon {
 
         // Auto Updater
         if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/ExoticGarden/master").start();
+            new GitHubBuildsUpdater(this, getFile(), "Cristian-BlackTure/2/main").start();
         }
 
         registerItems();
